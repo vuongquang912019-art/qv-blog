@@ -1,2 +1,4 @@
 @tailwind base;@tailwind components;@tailwind utilities;
-.clay-card{@apply bg-white rounded-[28px] shadow-[8px_8px_24px_rgba(0,0,0,0.07)]}
+.clay-card{@apply bg-white rounded-[28px] border border-white/70 shadow-[8px_8px_24px_rgba(0,0,0,0.07),-8px_-8px_24px_rgba(255,255,255,0.9)] transition-all duration-300}
+.clay-card:hover{@apply shadow-[12px_12px_32px_rgba(0,0,0,0.10),-8px_-8px_24px_rgba(255,255,255,0.9)] -translate-y-1}
+.featured-card{@apply bg-white rounded-[32px] border border-white/70 shadow-[12px_12px_36px_rgba(0,0,0,0.09),-10px_-10px_30px_rgba(255,255,255,0.9)]}
